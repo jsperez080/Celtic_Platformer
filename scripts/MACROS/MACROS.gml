@@ -1,0 +1,2 @@
+#macro FOLLOW_SPEED 25
+#macro TEXT_DISTANCE 64

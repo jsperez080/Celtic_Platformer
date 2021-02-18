@@ -1,9 +1,16 @@
 {
   "resources": [
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":1,},
+    {"id":{"name":"oCollectible","path":"objects/oCollectible/oCollectible.yy",},"order":4,},
+    {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
+    {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
