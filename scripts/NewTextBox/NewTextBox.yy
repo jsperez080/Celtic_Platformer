@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Text.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DrawSetText",
+  "name": "NewTextBox",
   "tags": [],
   "resourceType": "GMScript",
 }

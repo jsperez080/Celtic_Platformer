@@ -1,12 +1,20 @@
-/// @desc Variable Set Up
+//Sprite and Buffer
+sprTextBox = sTextBox;
+xpos = display_get_gui_width() * 0.5;
+yBuffer = 70;
+ypos = display_get_gui_height() - yBuffer;
+textYBuffer = 30;
+spriteWidth = sprite_get_width(sprTextBox);
+
+
+//String Information
 spd = 0.25;
 letters = 0;
-text = "This is a test text. It is meant to"
-	+ "\ntest the ability of writing multiple"
-	+ "\nlines. -Tester Testerson";
-	
-length = string_length(text);
+//length = string_length(textMessage);
 currentText = "";
+
+//fontWidth = string_width(text) / length;
+//maxChar = 0;
+
 width = 0;
 height = 0;
-border = 10;

@@ -2,16 +2,28 @@
 
 //Copy Text to currentText
 letters += spd;
-currentText = string_copy(text, 1, floor(letters));
+
+if(mouse_check_button_pressed(mb_right))
+{
+	var _messageLength = string_length(textMessage);
+	if(letters >= _messageLength)
+	{
+		instance_destroy();
+		if(instance_exists(oTextQueued))
+		{
+			with(oTextQueued) {ticket--;}
+		}
+	}
+	else
+	{
+		if(letters > 2)
+		{
+			letters = _messageLength;
+		}
+	}
+}
 
 //Set Text boundaries
 draw_set_font(fText);
-if(height == 0) {height = string_height(text);}
+if(height == 0) {height = string_height(textMessage);}
 width = string_width(currentText);
-
-//Destroy Text when complete
-if(letters >= length) && (keyboard_check_pressed(vk_anykey))
-{
-	instance_destroy();
-	with(oCamera) {follow = oPlayer;}
-}

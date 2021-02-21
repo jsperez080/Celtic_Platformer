@@ -1,21 +1,27 @@
 /// @desc Display Text if in range and button pressed
 
-if(point_in_circle(oPlayer.x,oPlayer.y,x,y,TEXT_DISTANCE)) && (!hasRun)
+//If player is in range and text has not been displayed allow player to see text.
+if(point_in_circle(oPlayer.x,oPlayer.y,x,y,TEXT_DISTANCE)) &&(!hasRun)
 {
+	//Display text if player presses rmb.
 	if(mouse_check_button_pressed(mb_right))
-	{	
-		//Create text when player presses RMB
-		with(instance_create_layer(x,y-TEXT_DISTANCE,layer,oText))
+	{
+		var _finishedTextBoxes = 0;
+		for(var i = 0; i < ds_list_size(textList); i++)
 		{
-			text = other.text;
-			length = string_length(text);
+			NewTextBox(ds_list_find_value(textList,i));//Remove next in list to display
+			_finishedTextBoxes++;
 		}
-		hasRun = true;
+		
+		if(_finishedTextBoxes >= ds_list_size(textList))//If all elements have been displayed
+		{
+			hasRun = true;
+		}
 	}
 }
 
 //Destroy instance after player finishes reading
-if(keyboard_check_pressed(vk_anykey)) && (hasRun)
+if((keyboard_check_pressed(vk_anykey)) || (mouse_check_button_pressed(mb_right))) && (hasRun)
 {
 	instance_destroy();
 }
