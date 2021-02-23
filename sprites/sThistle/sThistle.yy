@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
+  "bbox_left": 5,
+  "bbox_right": 26,
+  "bbox_top": 1,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"LayerId":{"name":"4a2ac7fb-99bf-4212-8c16-d3fa1dd2c795","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"LayerId":{"name":"d1340a75-4c82-4421-8de6-a42a37d0bc96","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},
+    "spriteId": {"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b9419676-161a-41b6-9390-0c4c8c318cab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bf75c9a5-22b9-4d2e-a0aa-252eda5b5ec6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},
+    "parent": {"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},
     "resourceVersion": "1.3",
-    "name": "sCollectible",
+    "name": "sThistle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a2ac7fb-99bf-4212-8c16-d3fa1dd2c795","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1340a75-4c82-4421-8de6-a42a37d0bc96","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "sCollectibles",
     "path": "folders/Sprites/sCollectibles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sCollectible",
+  "name": "sThistle",
   "tags": [],
   "resourceType": "GMSprite",
 }

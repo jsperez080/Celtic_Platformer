@@ -10,11 +10,7 @@ spriteWidth = sprite_get_width(sprTextBox);
 //String Information
 spd = 0.25;
 letters = 0;
-//length = string_length(textMessage);
 currentText = "";
-
-//fontWidth = string_width(text) / length;
-//maxChar = 0;
 
 width = 0;
 height = 0;

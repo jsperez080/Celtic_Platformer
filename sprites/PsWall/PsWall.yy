@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"LayerId":{"name":"4a2ac7fb-99bf-4212-8c16-d3fa1dd2c795","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"LayerId":{"name":"e51f8cee-c992-4524-98bb-dfe8efb0efd0","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},
+    "spriteId": {"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b9419676-161a-41b6-9390-0c4c8c318cab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"210d5f76-39a3-4ca1-9f54-ce4d2d3aedc7","path":"sprites/sCollectible/sCollectible.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"80cc0d2b-df30-4ff5-a7a2-f6d8aed7872e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},
+    "parent": {"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},
     "resourceVersion": "1.3",
-    "name": "sCollectible",
+    "name": "PsWall",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a2ac7fb-99bf-4212-8c16-d3fa1dd2c795","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e51f8cee-c992-4524-98bb-dfe8efb0efd0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "sCollectibles",
-    "path": "folders/Sprites/sCollectibles.yy",
+    "name": "sWalls",
+    "path": "folders/Sprites/sWalls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sCollectible",
+  "name": "PsWall",
   "tags": [],
   "resourceType": "GMSprite",
 }
