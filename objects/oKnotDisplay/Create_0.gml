@@ -1,0 +1,1 @@
+global.totalKnots = 0;
