@@ -9,11 +9,9 @@ if(point_in_circle(oPlayer.x,oPlayer.y,x,y,TEXT_DISTANCE)) &&(!hasRun)
 	{
 		
 		global.hasControl = false;
-		//var _finishedTextBoxes = 0;
 		for(var i = 0; i < ds_list_size(textList); i++)
 		{
 			NewTextBox(ds_list_find_value(textList,i));//Remove next in list to display
-			//_finishedTextBoxes++;
 		}
 				
 		if(counter >= ds_list_size(textList))//If all elements have been displayed
