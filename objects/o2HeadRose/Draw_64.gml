@@ -25,7 +25,10 @@ if(canGetAnswer)
 			{
 				//Start Cutscene
 				show_debug_message("Cutscene Initiated");
-				//Destroy object
+				global.runCS = true;
+				//global.hasControl = true;//Remove (this is for debugging)
+				canGetAnswer = false;
+				instance_destroy();
 			}
 		}
 		//Player chooses no
@@ -34,8 +37,11 @@ if(canGetAnswer)
 			draw_text_color(xpos, ypos+textHeight*4,Answer[0],c_gray,c_gray,c_gray,c_gray,1);
 			if(mouse_check_button_pressed(mb_left))
 			{
-				//Give player back control
-				show_debug_message("Cutscene Canceled");
+				//Give player back control and establish a timer to allow player to move away
+				canGetAnswer = false;
+				counter = 0;
+				countdown = timer*6;
+				global.hasControl = true;
 			}
 		}
 	}

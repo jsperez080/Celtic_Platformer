@@ -1,1 +1,0 @@
-//if(!instance_exists(oText)) {global.hasControl = true;}
