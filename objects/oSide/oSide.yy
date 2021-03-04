@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Static Ground",
+    "path": "folders/Objects/Walls/Static Ground.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSide",

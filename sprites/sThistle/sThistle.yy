@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1340a75-4c82-4421-8de6-a42a37d0bc96","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "sCollectibles",
-    "path": "folders/Sprites/sCollectibles.yy",
+    "name": "Level 1 Collectibles",
+    "path": "folders/Sprites/sCollectibles/Level 1 Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "sThistle",

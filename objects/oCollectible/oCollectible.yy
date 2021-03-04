@@ -30,8 +30,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collectibles",
-    "path": "folders/Objects/Collectibles.yy",
+    "name": "Parent Collectible",
+    "path": "folders/Objects/Collectibles/Parent Collectible.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCollectible",

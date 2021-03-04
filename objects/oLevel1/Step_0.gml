@@ -131,8 +131,9 @@ if(executeText)
 			with(oText){instance_destroy();}
 		}
 	}
-	else if(textBoxCreated > ds_list_size(textArray))
+	else if(textBoxCreated == 12)
 	{
+		instance_create_layer(0,0,layer,oFadeOut);
 		instance_destroy();
 	}
 }

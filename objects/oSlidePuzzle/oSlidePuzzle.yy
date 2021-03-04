@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "SlidingPuzzle",
-    "path": "folders/Objects/SlidingPuzzle.yy",
+    "name": "Puzzle Pieces",
+    "path": "folders/Objects/SlidingPuzzle/Puzzle Pieces.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSlidePuzzle",

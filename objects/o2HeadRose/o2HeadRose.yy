@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Collectibles",
-    "path": "folders/Objects/Collectibles.yy",
+    "name": "Level 1 Collectibles",
+    "path": "folders/Objects/Collectibles/Level 1 Collectibles.yy",
   },
   "resourceVersion": "1.0",
   "name": "o2HeadRose",

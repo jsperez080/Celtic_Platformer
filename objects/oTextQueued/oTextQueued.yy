@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Management",
-    "path": "folders/Objects/Management.yy",
+    "name": "Text",
+    "path": "folders/Objects/Management/Text.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTextQueued",

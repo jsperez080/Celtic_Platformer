@@ -18,7 +18,7 @@ if(countdown <= 0)
 		{
 			counter++;
 			with(oText) {instance_destroy();}
-			//with(oTextQueued) {instance_destroy();}
+			with(oTextQueued) {instance_destroy();}
 		}
 	}
 	else if((counter == 2) && (point_in_circle(oPlayer.x, oPlayer.y, x, y, TEXT_DISTANCE)))
@@ -28,11 +28,10 @@ if(countdown <= 0)
 		{
 			counter++;
 			with(oText) {instance_destroy();}
-			//with(oTextQueued) {instance_destroy();}
+			with(oTextQueued) {instance_destroy();}
 			
 		
 		}
 	}
 }
 countdown--;
-show_debug_message(countdown);

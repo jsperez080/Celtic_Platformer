@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"68a60331-9ee2-4f2e-898b-c6169c264276","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Text",
+    "path": "folders/Sprites/Text.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTextBox",

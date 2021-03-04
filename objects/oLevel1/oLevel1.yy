@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Management",
-    "path": "folders/Objects/Management.yy",
+    "name": "Game&Levels",
+    "path": "folders/Objects/Management/Game&Levels.yy",
   },
   "resourceVersion": "1.0",
   "name": "oLevel1",

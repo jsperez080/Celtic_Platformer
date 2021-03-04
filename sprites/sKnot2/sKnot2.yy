@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"59536868-1af6-426d-b616-0bc4f36ea8ee","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "sSlidingPuzzle",
-    "path": "folders/Sprites/sSlidingPuzzle.yy",
+    "name": "Knot Pieces",
+    "path": "folders/Sprites/sSlidingPuzzle/Knot Pieces.yy",
   },
   "resourceVersion": "1.0",
   "name": "sKnot2",

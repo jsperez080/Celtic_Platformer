@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Walls.yy",
+    "name": "Moving Walls",
+    "path": "folders/Objects/Walls/Moving Walls.yy",
   },
   "resourceVersion": "1.0",
   "name": "oVerticalWall",
