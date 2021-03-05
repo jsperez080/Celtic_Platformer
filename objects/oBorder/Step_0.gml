@@ -42,7 +42,7 @@ if(complete == true)
 {
 	NewTextBox("This is a test.");
 	NewTextBox("This is the second test.");
-	if(mouse_check_button_pressed(mb_right))
+	if(mouse_check_button_pressed(mb_left))
 	{
 		counter++;
 		if(counter >= maxTextBoxes)

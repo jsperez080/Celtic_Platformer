@@ -9,9 +9,9 @@ for(var i=0; i<3; i++)
 	{
 		if(value !=9)
 		{
-			var ins = instance_create_layer(x + (i*sprite_get_width(sTile)),
+			var ins = instance_create_depth(x + (i*sprite_get_width(sTile)),
 								  y + (j*sprite_get_height(sTile)),
-								  "Player",
+								  -1000,
 								  oTile);
 			ins.value = value;
 			ins.image_index = value;

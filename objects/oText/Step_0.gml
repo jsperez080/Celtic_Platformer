@@ -3,7 +3,7 @@
 //Copy Text to currentText
 letters += spd;
 
-if(mouse_check_button_pressed(mb_right))
+if(mouse_check_button_pressed(mb_left))
 {
 	var _messageLength = string_length(textMessage);
 	if(letters >= _messageLength)

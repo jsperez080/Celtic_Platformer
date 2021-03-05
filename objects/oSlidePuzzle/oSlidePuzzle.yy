@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sBorder",
-    "path": "sprites/sBorder/sBorder.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,7 +18,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oSlidePuzzle","path":"objects/oSlidePuzzle/oSlidePuzzle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oSlidePuzzle","path":"objects/oSlidePuzzle/oSlidePuzzle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"oSlidePuzzle","path":"objects/oSlidePuzzle/oSlidePuzzle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oSlidePuzzle","path":"objects/oSlidePuzzle/oSlidePuzzle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

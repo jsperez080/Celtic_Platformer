@@ -1,10 +1,11 @@
+xpos = (camera_get_view_x(cam)+ (display_get_gui_width()))
 
 #region //Cutscene Animation
 if(global.runCS)
 {
 	if(doOnce)
 	{
-		instance_create_layer(display_get_gui_width(), oPlayer.y,layer,oTamLin);
+		instance_create_layer(xpos, oPlayer.y,layer,oTamLin);
 		doOnce = false;
 	}
 	with(oTamLin) 

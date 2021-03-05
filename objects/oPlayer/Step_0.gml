@@ -14,7 +14,7 @@ if(global.hasControl)
 
 	//Jumping
 	if(place_meeting(x, y + 1, PWall)) && (key_jump){
-		vsp = -7;//Change this to macro?
+		vsp = -10;//Change this to macro?
 	}
 
 	//Horizontal Collision

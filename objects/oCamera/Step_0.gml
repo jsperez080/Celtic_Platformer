@@ -18,3 +18,13 @@ y = clamp(y, viewHHalf + camBuffer, room_height - viewHHalf - camBuffer);
 
 //Set Camera Position
 camera_set_view_pos(cam, x-viewWHalf, y-viewHHalf);
+
+if(layer_exists("B_Layer4"))
+{
+	layer_x("B_Layer4", x/2);
+}
+
+if(layer_exists("B_Layer2"))
+{
+	layer_x("B_Layer2", x/4);
+}

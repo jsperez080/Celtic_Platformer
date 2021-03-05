@@ -26,7 +26,6 @@ if(canGetAnswer)
 				//Start Cutscene
 				show_debug_message("Cutscene Initiated");
 				global.runCS = true;
-				//global.hasControl = true;//Remove (this is for debugging)
 				canGetAnswer = false;
 				instance_destroy();
 			}
@@ -45,7 +44,4 @@ if(canGetAnswer)
 			}
 		}
 	}
-	
-	
-	//show_debug_message(_right);
 }

@@ -2,6 +2,7 @@ global.runCS = false;
 
 doOnce = true;
 executeText = false;
+cam = view_camera[0];
 
 //Text Management
 textBoxCreated = 0;
