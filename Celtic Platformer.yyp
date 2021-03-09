@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":2,},
     {"id":{"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},"order":0,},
     {"id":{"name":"sLayer2","path":"sprites/sLayer2/sLayer2.yy",},"order":1,},
+    {"id":{"name":"sMenuGround","path":"sprites/sMenuGround/sMenuGround.yy",},"order":3,},
     {"id":{"name":"oKnotPiece","path":"objects/oKnotPiece/oKnotPiece.yy",},"order":0,},
     {"id":{"name":"oHorizontalWall","path":"objects/oHorizontalWall/oHorizontalWall.yy",},"order":0,},
     {"id":{"name":"PWall","path":"objects/PWall/PWall.yy",},"order":2,},
@@ -36,9 +38,12 @@
     {"id":{"name":"sLayer4","path":"sprites/sLayer4/sLayer4.yy",},"order":3,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
+    {"id":{"name":"oTransition","path":"objects/oTransition/oTransition.yy",},"order":3,},
+    {"id":{"name":"RMenu","path":"rooms/RMenu/RMenu.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oVerticalWall","path":"objects/oVerticalWall/oVerticalWall.yy",},"order":1,},
     {"id":{"name":"sSlidingTrigger","path":"sprites/sSlidingTrigger/sSlidingTrigger.yy",},"order":2,},
+    {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":5,},
     {"id":{"name":"sKnot2","path":"sprites/sKnot2/sKnot2.yy",},"order":1,},
     {"id":{"name":"sCollectible","path":"sprites/sCollectible/sCollectible.yy",},"order":0,},
     {"id":{"name":"oSoil","path":"objects/oSoil/oSoil.yy",},"order":3,},
@@ -64,6 +69,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"RMenu","path":"rooms/RMenu/RMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
