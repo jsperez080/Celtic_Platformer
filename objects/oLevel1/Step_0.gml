@@ -8,6 +8,7 @@ if(global.runCS)
 		instance_create_layer(xpos, oPlayer.y,layer,oTamLin);
 		doOnce = false;
 	}
+	with(oPlayer) {sprite_index = sPlayer;}
 	with(oTamLin) 
 	{
 		x -= walksp;

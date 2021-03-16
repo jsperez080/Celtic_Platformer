@@ -36,3 +36,16 @@ if(global.hasControl)
 	y = y + vsp;
 }
 #endregion
+
+image_speed = 1;
+if(hsp == 0)
+{
+	sprite_index = sPlayer;
+}
+else
+{
+	sprite_index = sJanetWalk;
+}
+
+
+if(hsp != 0) {image_xscale = sign(hsp)};
