@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 26,
-  "bbox_top": 1,
-  "bbox_bottom": 31,
+  "bbox_left": 10,
+  "bbox_right": 53,
+  "bbox_top": 2,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"LayerId":{"name":"d1340a75-4c82-4421-8de6-a42a37d0bc96","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0623daea-b670-460f-a028-cdb11042619b","path":"sprites/sThistle/sThistle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0623daea-b670-460f-a028-cdb11042619b","path":"sprites/sThistle/sThistle.yy",},"LayerId":{"name":"5aec16c9-5c6b-47d3-94cb-6bd6870e8dde","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","name":"0623daea-b670-460f-a028-cdb11042619b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bf75c9a5-22b9-4d2e-a0aa-252eda5b5ec6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47a32838-2cf0-4aea-b02c-aa691eb281e6","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"de3c3bcd-fc0a-4111-8ff7-49b21ee849ab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0623daea-b670-460f-a028-cdb11042619b","path":"sprites/sThistle/sThistle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 32,
+    "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sThistle","path":"sprites/sThistle/sThistle.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d1340a75-4c82-4421-8de6-a42a37d0bc96","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5aec16c9-5c6b-47d3-94cb-6bd6870e8dde","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Level 1 Collectibles",

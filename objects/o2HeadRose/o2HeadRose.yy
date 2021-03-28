@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sThistle",
-    "path": "sprites/sThistle/sThistle.yy",
+    "name": "s2HeadRose",
+    "path": "sprites/s2HeadRose/s2HeadRose.yy",
   },
   "solid": false,
   "visible": true,

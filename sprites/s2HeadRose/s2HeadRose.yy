@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 12,
-  "bbox_right": 51,
-  "bbox_top": 14,
-  "bbox_bottom": 39,
+  "bbox_left": 0,
+  "bbox_right": 61,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a941ec5b-4bf2-4b2c-942b-d602828161a9","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a941ec5b-4bf2-4b2c-942b-d602828161a9","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},"LayerId":{"name":"6bc44c2b-1f59-4f05-8e3c-7d255e8e3852","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sDagdaCauldron","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},"resourceVersion":"1.0","name":"a941ec5b-4bf2-4b2c-942b-d602828161a9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0ee342b2-e712-4b54-a087-29e08c6fb733","path":"sprites/s2HeadRose/s2HeadRose.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0ee342b2-e712-4b54-a087-29e08c6fb733","path":"sprites/s2HeadRose/s2HeadRose.yy",},"LayerId":{"name":"70e77cd5-ac36-44b2-9e9a-ceb91ccea83b","path":"sprites/s2HeadRose/s2HeadRose.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s2HeadRose","path":"sprites/s2HeadRose/s2HeadRose.yy",},"resourceVersion":"1.0","name":"0ee342b2-e712-4b54-a087-29e08c6fb733","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sDagdaCauldron","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},
+    "spriteId": {"name":"s2HeadRose","path":"sprites/s2HeadRose/s2HeadRose.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ac9af4c1-6a51-419f-b84d-0e6158c6f954","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a941ec5b-4bf2-4b2c-942b-d602828161a9","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e8841cd8-6ecf-4d31-9ce4-dc688e19b81a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0ee342b2-e712-4b54-a087-29e08c6fb733","path":"sprites/s2HeadRose/s2HeadRose.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sDagdaCauldron","path":"sprites/sDagdaCauldron/sDagdaCauldron.yy",},
+    "parent": {"name":"s2HeadRose","path":"sprites/s2HeadRose/s2HeadRose.yy",},
     "resourceVersion": "1.3",
-    "name": "sDagdaCauldron",
+    "name": "s2HeadRose",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6bc44c2b-1f59-4f05-8e3c-7d255e8e3852","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70e77cd5-ac36-44b2-9e9a-ceb91ccea83b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Level 1 Collectibles",
     "path": "folders/Sprites/sCollectibles/Level 1 Collectibles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sDagdaCauldron",
+  "name": "s2HeadRose",
   "tags": [],
   "resourceType": "GMSprite",
 }

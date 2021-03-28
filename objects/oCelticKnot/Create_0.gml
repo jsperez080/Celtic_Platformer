@@ -1,0 +1,1 @@
+textCreated = 0;
