@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 619,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 359,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 620,
+  "height": 360,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"LayerId":{"name":"e51f8cee-c992-4524-98bb-dfe8efb0efd0","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3cc90078-18b5-4afb-b2e8-3bef25b8a4a7","path":"sprites/sCastle/sCastle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3cc90078-18b5-4afb-b2e8-3bef25b8a4a7","path":"sprites/sCastle/sCastle.yy",},"LayerId":{"name":"13de2aba-5188-4c8d-b818-abe2b791a24e","path":"sprites/sCastle/sCastle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCastle","path":"sprites/sCastle/sCastle.yy",},"resourceVersion":"1.0","name":"3cc90078-18b5-4afb-b2e8-3bef25b8a4a7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},
+    "spriteId": {"name":"sCastle","path":"sprites/sCastle/sCastle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"80cc0d2b-df30-4ff5-a7a2-f6d8aed7872e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4c290555-8e14-43ae-8ac7-e96efa064b4f","path":"sprites/PsWall/PsWall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b82f4466-d5df-4c3f-a8bd-e604e6e293f6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3cc90078-18b5-4afb-b2e8-3bef25b8a4a7","path":"sprites/sCastle/sCastle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"PsWall","path":"sprites/PsWall/PsWall.yy",},
+    "parent": {"name":"sCastle","path":"sprites/sCastle/sCastle.yy",},
     "resourceVersion": "1.3",
-    "name": "PsWall",
+    "name": "sCastle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e51f8cee-c992-4524-98bb-dfe8efb0efd0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"13de2aba-5188-4c8d-b818-abe2b791a24e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "sWalls",
-    "path": "folders/Sprites/sWalls.yy",
+    "name": "Castle",
+    "path": "folders/Sprites/Backgrounds/Castle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PsWall",
+  "name": "sCastle",
   "tags": [],
   "resourceType": "GMSprite",
 }
