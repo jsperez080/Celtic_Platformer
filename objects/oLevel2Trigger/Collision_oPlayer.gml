@@ -1,0 +1,1 @@
+if(!instance_exists(oCollectible)) {global.runCS2 = true;}

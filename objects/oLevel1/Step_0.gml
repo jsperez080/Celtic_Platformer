@@ -1,4 +1,4 @@
-xpos = (camera_get_view_x(cam)+ (display_get_gui_width()))
+xpos = (camera_get_view_x(cam)+ (display_get_gui_width()));
 
 #region //Cutscene Animation
 if(global.runCS)

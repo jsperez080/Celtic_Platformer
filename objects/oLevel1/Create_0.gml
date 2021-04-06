@@ -12,9 +12,9 @@ textArray = ds_list_create();
 ds_list_add(textArray, "Tam Lin: Fair Lady, why do you pull on a rose that doesn't belong to you?."
 						+ " Furthermore, why do you come to this forest without my permission?");
 						
-ds_list_add(textArray, "Jane: You're mistaken sir. I own these woods. My father owns all the land "
+ds_list_add(textArray, "Janet: You're mistaken sir. I own these woods. My father owns all the land "
 					    + "nearby and gave this forest to me.");
-ds_list_add(textArray, "Jane: Frankly, I don't need your, or anyone's permission to be here.");
+ds_list_add(textArray, "Janet: Frankly, I don't need your, or anyone's permission to be here.");
 
 ds_list_add(textArray, "Tam Lin: I see...It seems I won't get my usual offering from you.");
 
