@@ -424,6 +424,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oJuniper","path":"objects/oJuniper/oJuniper.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":288.0,"resourceVersion":"1.0","name":"inst_788FF64D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oScrollGods","path":"objects/oScrollGods/oScrollGods.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1984.0,"y":896.0,"resourceVersion":"1.0","name":"inst_785B47FA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oUnicornHorn","path":"objects/oUnicornHorn/oUnicornHorn.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":864.0,"resourceVersion":"1.0","name":"inst_581E5D2F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o2HeadRose","path":"objects/o2HeadRose/o2HeadRose.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2080.0,"y":1376.0,"resourceVersion":"1.0","name":"inst_57C81426","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Collectibles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_465C2712","path":"rooms/Room1/Room1.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":1408.0,"resourceVersion":"1.0","name":"inst_465C2712","tags":[],"resourceType":"GMRInstance",},
@@ -846,6 +847,7 @@
     {"name":"inst_785B47FA","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_581E5D2F","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_572E12E","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_57C81426","path":"rooms/Room3/Room3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
