@@ -27,7 +27,9 @@ if(global.hasControl)
 	x = x + hsp;
 
 	//Vertical Collision
-	if(place_meeting(x, y + vsp, PWall)){
+	inst = instance_place(x,y +vsp,PWall)
+	if(inst != noone)&& (vsp <= 0 or y < inst.y) {
+	//if(place_meeting(x, y + vsp, PWall)){
 		while(!place_meeting(x, y + sign(vsp), PWall)){
 			y = y + sign(vsp);	
 		}
