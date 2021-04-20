@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "PsWall",
+    "path": "sprites/PsWall/PsWall.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oCollectible",

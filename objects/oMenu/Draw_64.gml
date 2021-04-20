@@ -19,7 +19,7 @@ for(var i = 0; i < menu_items; i++)
 	}
 	
 	var xx = menu_x;
-	var yy = menu_y - (menu_itemheight * (i * 1.5));
+	var yy = menu_y - (menu_itemheight * (i * 2.5));
 	
 	//Draw 4 black styles to get outline
 	draw_set_color(c_black);

@@ -1,9 +1,14 @@
 if(global.totalKnots == 0)
 {
+	
+	
+	oPlayer.hsp = 0;
+	
 	if(countdown <= 0)
 	{
 		if((counter == 0) && (point_in_circle(oPlayer.x, oPlayer.y, x, y, TEXT_DISTANCE)))
 		{
+			
 			with oPlayer if place_meeting(x,y+1,oGround) global.hasControl = false; 
 			NewTextBox("That's the prettiest flower I've ever seen! Two heads is certainly strange.");
 			if(mouse_check_button_pressed(mb_left)) 

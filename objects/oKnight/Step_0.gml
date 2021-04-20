@@ -1,10 +1,13 @@
-if(!instance_exists(oCollectible))
-{
+//if(!instance_exists(oCollectible))
+//{
 	if(point_in_circle(oPlayer.x, oPlayer.y, x, y, TEXT_DISTANCE))
 	{
+		
 		global.hasControl = false;
+		oPlayer.hsp = 0;
 		if(textBoxCreated2 == 0)
 		{
+			
 			NewTextBox(ds_list_find_value(textArray2, textBoxCreated2));
 			if(mouse_check_button_pressed(mb_left))
 			{
@@ -14,7 +17,9 @@ if(!instance_exists(oCollectible))
 		}
 		else if(textBoxCreated2 == 1)
 		{
-			instance_create_layer(0,0,layer,oFadeOut);
+			
+			global.runCS2_2 = true;//instance_create_layer(0,0,layer,oFadeOut);
 		}
 	}
-}
+//}
+

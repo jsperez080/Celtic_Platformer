@@ -26,11 +26,13 @@ if(executeText)
 {
 	if(textBoxCreated == 0)
 	{
+		oTamLin.isWalking = false;
 		NewTextBox(ds_list_find_value(textArray,textBoxCreated));
 		if(mouse_check_button_pressed(mb_left))
 		{
 			textBoxCreated += 1;
 			with(oText){instance_destroy();}
+			
 		}
 	}
 	

@@ -16,11 +16,11 @@ menu_control = true;
 
 //Game options
 menu[2] = "New Game";
-menu[1] = "Continue";
+menu[1] = "Credits";
 menu[0] = "Quit";
 
 menu_items = array_length_1d(menu);
 
-menu_top = menu_y - ((menu_itemheight*1.5) * menu_items);
+menu_top = menu_y - ((menu_itemheight*2.5) * menu_items);
 
 menu_cursor = 2;

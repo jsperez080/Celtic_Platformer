@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTamLin",
-    "path": "sprites/sTamLin/sTamLin.yy",
+    "name": "sTamLin_Horse_Standing",
+    "path": "sprites/sTamLin_Horse_Standing/sTamLin_Horse_Standing.yy",
   },
   "solid": false,
   "visible": true,

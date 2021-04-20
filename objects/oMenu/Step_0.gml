@@ -27,7 +27,7 @@ if(menu_control)//Does player have control of menus?
 	var mouse_y_gui = device_mouse_y_to_gui(0);
 	if(mouse_y_gui < menu_y) && (mouse_y_gui > menu_top)
 	{
-		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 1.5);
+		menu_cursor = (menu_y - mouse_y_gui) div (menu_itemheight * 2.3);
 		
 		if(mouse_check_button_pressed(mb_left))
 		{

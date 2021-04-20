@@ -4,7 +4,7 @@
 if(point_in_circle(oPlayer.x,oPlayer.y,x,y,TEXT_DISTANCE)) &&(!hasRun)
 {
 	//Display text if player presses rmb.
-	if(mouse_check_button_pressed(mb_left))
+	if(mouse_check_button_pressed(mb_left) || (distance_to_object(oPlayer) <= 1) && keyboard_check_pressed(vk_space))
 	{
 		
 		global.hasControl = false;
