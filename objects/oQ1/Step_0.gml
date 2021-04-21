@@ -15,7 +15,7 @@
 		}
 		else if((counter == 1) && (point_in_circle(oPlayer.x, oPlayer.y, x, y, TEXT_DISTANCE)))
 		{
-			NewTextBox("The Two Headed Rose was found in the forest?");
+			NewTextBox("The Celtic Knot means Unity: True or False?");
 			if(mouse_check_button_pressed(mb_left)) 
 			{
 				counter++;

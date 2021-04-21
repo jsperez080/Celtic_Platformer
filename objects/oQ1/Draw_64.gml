@@ -17,18 +17,7 @@ if(canGetAnswer)
 	
 	if((_mouseXgui > _left) && (_mouseXgui < _right))
 	{
-		//Player chooses True
-		if(_mouseYgui > _topYes) && (_mouseYgui < _bottomYes)
-		{
-			draw_text_color(xpos, ypos+textHeight,Answer[1],c_gray,c_gray,c_gray,c_gray,1);
-			if(mouse_check_button_pressed(mb_left))
-			{
-				show_debug_message("Correct");
-				canGetAnswer = false;
-				instance_destroy();
-			}
-		}
-		//Player chooses False
+		//Player chooses True		
 		if((_mouseYgui > _topNo) && (_mouseYgui < _bottomNo))
 		{
 			draw_text_color(xpos, ypos+textHeight*4,Answer[0],c_gray,c_gray,c_gray,c_gray,1);
@@ -37,5 +26,16 @@ if(canGetAnswer)
 				show_debug_message("Incorrect");
 			}
 		}
+		//Player chooses False
+		if(_mouseYgui > _topYes) && (_mouseYgui < _bottomYes)
+		{
+			draw_text_color(xpos, ypos+textHeight,Answer[1],c_gray,c_gray,c_gray,c_gray,1);
+			if(mouse_check_button_pressed(mb_left))
+			{
+				show_debug_message("Correct. It means eternity.");
+				canGetAnswer = false;
+				instance_destroy();
+			}
+		}
 	}
-}
+}	

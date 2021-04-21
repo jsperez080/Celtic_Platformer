@@ -1,9 +1,10 @@
 xpos = (camera_get_view_x(cam2)+ (display_get_gui_width()));
 
 #region //Cutscene Animation
-/*if(global.runCS2 == true)
+
+if(global.runCS2 == true)
 {
-	/*if(doOnce2)
+	if(doOnce2)
 	{
 		instance_create_layer(xpos, oPlayer.y,layer,oKnight);
 		doOnce2 = false;
@@ -20,7 +21,7 @@ xpos = (camera_get_view_x(cam2)+ (display_get_gui_width()));
 	}	
 	oKnight.image_xscale = -1;
 	executeText2 = true;
-}*/
+}
 
 if(global.runCS2_2 == true)
 {

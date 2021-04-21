@@ -15,7 +15,8 @@ menu_committed = -1;//Which menu selection selected?
 menu_control = true;
 
 //Game options
-menu[2] = "New Game";
+menu[3] = "New Game";
+menu[2] = "Controls";
 menu[1] = "Credits";
 menu[0] = "Quit";
 
