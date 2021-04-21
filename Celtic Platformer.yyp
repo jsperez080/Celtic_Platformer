@@ -63,6 +63,7 @@
     {"id":{"name":"sKnot1","path":"sprites/sKnot1/sKnot1.yy",},"order":0,},
     {"id":{"name":"sQueenWalk","path":"sprites/sQueenWalk/sQueenWalk.yy",},"order":5,},
     {"id":{"name":"oBear","path":"objects/oBear/oBear.yy",},"order":4,},
+    {"id":{"name":"TheEnd","path":"rooms/TheEnd/TheEnd.yy",},"order":6,},
     {"id":{"name":"sTamLin_HorseWalk","path":"sprites/sTamLin_HorseWalk/sTamLin_HorseWalk.yy",},"order":9,},
     {"id":{"name":"sJanetSr_Walk","path":"sprites/sJanetSr_Walk/sJanetSr_Walk.yy",},"order":7,},
     {"id":{"name":"oQ4","path":"objects/oQ4/oQ4.yy",},"order":3,},
@@ -78,6 +79,7 @@
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":0,},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
     {"id":{"name":"oQueen","path":"objects/oQueen/oQueen.yy",},"order":3,},
+    {"id":{"name":"Sprite60","path":"sprites/Sprite60/Sprite60.yy",},"order":7,},
     {"id":{"name":"oTamLin","path":"objects/oTamLin/oTamLin.yy",},"order":0,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":0,},
     {"id":{"name":"FadeIn3","path":"objects/FadeIn3/FadeIn3.yy",},"order":2,},
@@ -156,6 +158,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"TheEnd","path":"rooms/TheEnd/TheEnd.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
